@@ -6,7 +6,7 @@ $config = new \PHPAuth\Config($pdo);
 $config->setMailer(new \PHPAuth\Mailer\NetteMailerDriver([
     'smtp'      =>  true,
     
-    'host'      =>  'smtp.gmail.com'  
+    'host'      =>  'smtp.gmail.com',
     'port'      =>  587, // relative to security type 
 
     'username'  =>  'your-email@gmail.com',
