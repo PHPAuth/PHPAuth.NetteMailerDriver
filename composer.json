@@ -1,0 +1,16 @@
+{
+  "name": "phpauth/phpauth.mailer.nette",
+  "description": "Nette Mail driver for PHPAuth",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "ext-iconv": "*",
+    "phpauth/phpauth": "^1.6.1",
+    "nette/mail": "^3.0|^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPAuth\\Mailer\\": "src/"
+    }
+  }
+}
